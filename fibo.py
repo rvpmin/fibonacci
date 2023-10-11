@@ -4,16 +4,16 @@
 # LICENSE GNU/GPL
 # My first sequence
 
-N = 100
+N = 10
 a = 1
 b = 1
-print(a)
-print(b)
+vector=[1,1]
 
 for x in range(1,N+1):
     c = a + b
-    print(c)
-    f = b
-    a = f
+    vector.append(c)
+    a = b
     b = c
+
+print(vector)
     
